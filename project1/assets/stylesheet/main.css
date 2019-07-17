@@ -47,6 +47,9 @@ table {
 	border-spacing: 0;
 }
 /*css starts here*/
+*{
+	box-sizing: border-box;
+}
 .wrapper{
 	max-width: 1250px;
 	padding: 30px;
@@ -56,17 +59,97 @@ table {
 	font-size: 30px;
 	font-weight: bold;
 }
-.section1{
+.heading {
 	text-align: center;
 	font-size: 20px;
 	font-weight: bold;
+	margin: 50px;
 }
 .topbox{
-	width: 200px
+	width: 200px;
 	height:200px;
 	background-color: #DAFAD4 ;
 	border: 15px solid #ADD8E6;
 	outline: 2px solid black;
 	box-shadow: 0px 0px 0px 20px #ED7F80 ;
+	margin: 40px auto;
 
+}
+.all{
+	height: 30px;
+	width: 430px;
+	margin: 40px auto;
+}
+.content{
+	background-color: #DAFAD4;
+}
+.padding{
+	background-color: #ADD8E6;
+}
+.bor{
+	background-color: black;
+}
+.mar{
+	background-color: #ED7F80;
+}
+.content, .padding, .bor, .mar {
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 40px;
+}
+.content p, .padding p, .bor p, .mar p{
+	margin-left: 25px;
+}
+hr{
+	width: 500px;
+	border-top: 1px dashed grey;
+}
+.para{
+	text-align: center;
+}
+.noborder{
+	width:530px;
+	height: 100px;
+	border: 2px solid #999999;
+	margin: 40px auto;
+
+}
+.noborder1, .noborder2, .noborder3{
+	width: 150px;
+	height: 80px;
+	background-color: #CCCCCC;
+	display: inline-block;
+	margin: 10px;
+}
+.border{
+	width:530px;
+	height: 220px;
+	border: 2px solid #999999;
+	margin: 40px auto;
+}
+.border1, .border2{
+	width: 150px;
+	height: 80px;
+	background-color: #CCCCCC;
+	display: inline-block;
+	border: 1px solid black;
+	margin: 10px;
+}
+.border3{
+	width: 150px;
+	height: 80px;
+	background-color: #CCCCCC;
+	border: 1px solid black;
+	margin: 10px;
+}
+.borderlast{
+	width:530px;
+	height: 100px;
+	border: 2px solid #999999;
+	margin: 40px auto;
+}
+.borderlast .border3{
+	display: inline-block;
 }
