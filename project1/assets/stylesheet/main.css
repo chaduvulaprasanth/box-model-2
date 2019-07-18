@@ -108,13 +108,14 @@ hr{
 }
 .para{
 	text-align: center;
+	margin: 20px 0;
 }
 .no {
 	width: 600px;
 	border: 1px solid #999999;
 	margin: 10px auto;
 }
-.nobor {
+.box {
 	width: 180px;
 	height: 100px;
 	background-color: #CCCCCC;
@@ -122,29 +123,8 @@ hr{
 	margin: 10px;
 }
 .border{
-	width: 600px;
-	height: 250px;
-	border: 1px solid #999999;
-	margin: 40px auto;
-}
-.border1 {
-	width: 180px;
-	height: 100px;
-	background-color: #CCCCCC;
-	display: inline-block;
 	border: 1px solid black;
-	margin: 10px;
 }
-.border2{
-	display: block;
-}
-.border11 {
-	width: 180px;
-	height: 100px;
-	background-color: #CCCCCC;
+.boxborder {
 	box-sizing: border-box;
-	display: inline-block;
-	border: 1px solid black;
-	margin: 10px;
-	display: inline-block;
 }
